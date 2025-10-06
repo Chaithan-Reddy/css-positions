@@ -1,0 +1,87 @@
+.rt, .rt1, .rt2, .rt3 {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+.rt1 {
+    margin-left: 1050px;
+}
+.rt2 {
+    margin-left: 70px;
+}
+.rt3 {
+    margin-left: 70px;
+}
+.header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.brandimg {
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    top: 450px;
+    right: 600px;
+    font-size: 50px;
+    color: white;
+}
+.brand1 {
+    background-color: black;
+}
+.parent {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.child {
+    display: inline-block;
+    margin: 7px;
+}
+.parent1 {
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.child1 {
+    display: inline-block;
+    width: 350px;
+    margin: 5px;
+}
+.child {
+    position: relative;
+}
+.child > h3 {
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    background-color: black;
+    color: white;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    bottom: 0;
+}
+button {
+    color: white;
+    background-color: black;
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: gray;
+}
+
